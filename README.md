@@ -52,9 +52,34 @@ src/
 ## Learning Roadmap + Weekly Targets
 
 ### Week 1 – Programming Foundations
-- [ ] 01 – Basics
-- [ ] 02 – Functions
-- [ ] 03 – Arrays & Objects
+
+#### 01 – Basics (Day 1)
+**Topics**
+- [ ] `let` vs `const`
+- [ ] Primitive types: `string`, `number`, `boolean`
+- [ ] `null` and `undefined`
+- [ ] Type annotations
+- [ ] Console output
+- [ ] Template literals
+- [ ] Basic operators (`+ - * / %`, `===`, `&&`, `||`)
+- [ ] Simple functions with return types
+
+**Tasks**
+- Declare typed variables
+- Write simple calculations
+- Print formatted output using template literals
+- Write basic utility functions
+- Import basics into `app.ts`
+
+**Done When**
+- Code compiles with Bun
+- You can explain every line
+- 3–5 small commits are made
+
+---
+
+- [ ] 02 – Functions  
+- [ ] 03 – Arrays & Objects  
 
 **Outcome**
 - Comfortable writing functions
@@ -64,8 +89,8 @@ src/
 ---
 
 ### Week 2 – Control Flow & Type Safety
-- [ ] 04 – Control Flow
-- [ ] 05 – TypeScript Types
+- [ ] 04 – Control Flow  
+- [ ] 05 – TypeScript Types  
 
 **Outcome**
 - Confident with `type` vs `interface`
@@ -75,9 +100,9 @@ src/
 ---
 
 ### Week 3 – Async, Errors & Structure
-- [ ] 06 – Async Programming
-- [ ] 07 – Error Handling
-- [ ] 08 – Modules & Imports
+- [ ] 06 – Async Programming  
+- [ ] 07 – Error Handling  
+- [ ] 08 – Modules & Imports  
 
 **Outcome**
 - Understands async execution
@@ -87,7 +112,7 @@ src/
 ---
 
 ### Week 4 – Mini Projects + Express Introduction
-- [ ] 09 – Mini Projects
+- [ ] 09 – Mini Projects  
 
 **Install Express only now**
 ```bash
