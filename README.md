@@ -13,20 +13,18 @@ You will **write all code yourself** and commit progress regularly.
 
 ---
 
-## Project Setup
+## Project Setup (Initial – No Frameworks)
 
 ```bash
 bun init --yes
-bun i -D @types/express
-bun i express
 ```
 
 Add scripts to `package.json`:
 ```json
 {
   "scripts": {
-    "dev": "bun --watch app.ts",
-    "start": "bun app.ts"
+    "dev": "bun --watch src/app.ts",
+    "start": "bun src/app.ts"
   }
 }
 ```
@@ -37,6 +35,7 @@ Add scripts to `package.json`:
 
 ```
 src/
+  app.ts
   01-basics/
   02-functions/
   03-arrays-objects/
@@ -46,108 +45,64 @@ src/
   07-error-handling/
   08-modules/
   09-mini-projects/
-index.ts
 ```
 
 ---
 
-## Learning Roadmap
+## Learning Roadmap + Weekly Targets
 
-### 01 – Basics
-- Variables (`let`, `const`)
-- Primitive types
-- Console output
+### Week 1 – Programming Foundations
+- [ ] 01 – Basics
+- [ ] 02 – Functions
+- [ ] 03 – Arrays & Objects
 
-**Tasks**
-- Declare typed variables
-- Simple calculations
-- String interpolation
-
----
-
-### 02 – Functions
-- Function declarations
-- Return types
-- Parameters
-- Arrow functions
-
-**Tasks**
-- Calculator functions
-- Input/output typing
+**Outcome**
+- Comfortable writing functions
+- Can manipulate arrays/objects
+- Understands basic typing
 
 ---
 
-### 03 – Arrays & Objects
-- Typed arrays
-- Object typing
-- Nested objects
+### Week 2 – Control Flow & Type Safety
+- [ ] 04 – Control Flow
+- [ ] 05 – TypeScript Types
 
-**Tasks**
-- User list management
-- Filter, map, reduce
-
----
-
-### 04 – Control Flow
-- `if / else`
-- `switch`
-- Loops (`for`, `while`)
-
-**Tasks**
-- Validation logic
-- Iteration utilities
+**Outcome**
+- Confident with `type` vs `interface`
+- Models real-world entities
+- Writes predictable code
 
 ---
 
-### 05 – TypeScript Types
-- `type` vs `interface`
-- Optional properties
-- Readonly
-- Enums
+### Week 3 – Async, Errors & Structure
+- [ ] 06 – Async Programming
+- [ ] 07 – Error Handling
+- [ ] 08 – Modules & Imports
 
-**Tasks**
-- Model real entities
-- Type-safe functions
-
----
-
-### 06 – Async Programming
-- Promises
-- `async / await`
-- Simulated API calls
-
-**Tasks**
-- Async data fetch
-- Sequential vs parallel execution
+**Outcome**
+- Understands async execution
+- Handles failures correctly
+- Organizes code cleanly
 
 ---
 
-### 07 – Error Handling
-- `try / catch`
-- Custom errors
-- Type narrowing
+### Week 4 – Mini Projects + Express Introduction
+- [ ] 09 – Mini Projects
 
-**Tasks**
-- Fail-safe functions
-- Error-first design
+**Install Express only now**
+```bash
+bun i express
+bun i -D @types/express
+```
 
----
+**Mini Projects**
+- [ ] CLI Todo App
+- [ ] File-based Notes App
+- [ ] In-memory Auth System (Express)
 
-### 08 – Modules & Imports
-- `import / export`
-- Folder-based modules
-
-**Tasks**
-- Utility libraries
-- Clean architecture basics
-
----
-
-### 09 – Mini Projects
-Build without tutorials:
-- CLI Todo App
-- File-based Notes App
-- In-memory Auth System
+**Outcome**
+- First backend-style app
+- Ready for DB-backed APIs next
 
 ---
 
@@ -155,7 +110,7 @@ Build without tutorials:
 - No copy-paste from tutorials
 - One concept per commit
 - Write meaningful commit messages
-- Keep code readable
+- Code must compile before commit
 
 ---
 
@@ -163,7 +118,5 @@ Build without tutorials:
 
 By completing this repo, you should:
 - Think in TypeScript
-- Write type-safe backend code
-- Be ready for Node.js/Bun backend APIs
-
----
+- Debug confidently
+- Transition into Express + DB backends
