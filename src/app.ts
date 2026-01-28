@@ -1,0 +1,1 @@
+console.log("Hello every living and non-living body!")
