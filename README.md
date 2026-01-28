@@ -53,7 +53,7 @@ src/
 
 ### Week 1 – Programming Foundations
 
-#### 01 – Basics (Day 1)
+#### 01 – Basics
 **Topics**
 - [x] `let` vs `const`
 - [x] Property access `user.name and user["weight"]`
