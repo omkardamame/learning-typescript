@@ -55,7 +55,8 @@ src/
 
 #### 01 – Basics (Day 1)
 **Topics**
-- [ ] `let` vs `const`
+- [x] `let` vs `const`
+- [x] Property access `user.name and user["weight"]`
 - [ ] Primitive types: `string`, `number`, `boolean`
 - [ ] `null` and `undefined`
 - [ ] Type annotations
