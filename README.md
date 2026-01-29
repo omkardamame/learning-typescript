@@ -57,13 +57,13 @@ src/
 **Topics**
 - [x] `let` vs `const`
 - [x] Property access `user.name and user["weight"]`
-- [ ] Primitive types: `string`, `number`, `boolean`
-- [ ] `null` and `undefined`
-- [ ] Type annotations
-- [ ] Console output
-- [ ] Template literals
-- [ ] Basic operators (`+ - * / %`, `===`, `&&`, `||`)
-- [ ] Simple functions with return types
+- [x] Primitive types: `string`, `number`, `boolean`
+- [x] `null` and `undefined`
+- [x] Type annotations
+- [x] Console output
+- [x] Template literals
+- [x] Basic operators (`+ - * / %`, `===`, `&&`, `||`)
+- [x] Simple functions with return types
 
 **Tasks**
 - Declare typed variables
